@@ -51,7 +51,7 @@ We will be using the Wearable Stress and Affect Dataset (WESAD). It is available
 
 ### Questions
 
-If you have questions about this Case Study, please [open an issue]() in this repo! 
+If you have questions about this Case Study, please [open an issue](https://github.com/DigitalBiomarkerDiscoveryPipeline/Education/issues) and tag it with *case-studies* and *stress*. 
 
 
 
