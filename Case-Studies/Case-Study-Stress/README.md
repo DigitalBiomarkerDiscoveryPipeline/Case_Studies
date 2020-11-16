@@ -22,8 +22,8 @@ We will be using the Wearable Stress and Affect Dataset (WESAD). It is available
 | Resource | How to use it | Language |
 | ------ | ------ | ------ | 
 | [Getting Started](https://github.com/DigitalBiomarkerDiscoveryPipeline/DBDP/wiki/USER-GUIDE) | User Guide for the DBDP | NA |
-| [Pre-process E4](https://github.com/DigitalBiomarkerDiscoveryPipeline/Pre-process/tree/master/Empatica_E4) | Pre-processing wearable E4 data | Python, R |
-| Pickle Data | Handling the pickle data format | Python |
+| [Pre-process E4](https://github.com/DigitalBiomarkerDiscoveryPipeline/Pre-process/tree/master/Empatica_E4) | Pre-processing wearable E4 data | Python, [R](https://github.com/DigitalBiomarkerDiscoveryPipeline/Education/tree/main/Case-Studies/Case-Study-Stress/Code) |
+| [Pickle Data](https://github.com/DigitalBiomarkerDiscoveryPipeline/Education/tree/main/Case-Studies/Case-Study-Stress/Code) | Handling the pickle data format | Python |
 | [Exploratory Data Analysis](https://github.com/DigitalBiomarkerDiscoveryPipeline/Exploratory-Data-Analysis) | Explore data, examine missingness, unsupervised learning | Python, R | 
 | [Heart Rate Variability](https://github.com/DigitalBiomarkerDiscoveryPipeline/Heart-Rate-Variability) | Feature Engineering Heart Rate Variability | Python |
 | wearablecompute | Feature Engineering *(coming soon)* | Python |
