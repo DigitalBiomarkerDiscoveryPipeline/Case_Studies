@@ -5,7 +5,11 @@ In this case study, we will be using wearable sensor data to detect stress. This
 This case study is part of dbdpED, the educational resource available through the [Digital Biomarker Discovery Pipeline](https://www.dbdp.org).
 
 ### Level
-Advanced
+Advanced. You should know Python/R very well and have experience working with datasets in one of the languages. This tutorial is not a step-by-step guide. Rather, it provides the structure and resources for you to explore the data, build your own prediction models, and draw your own conclusions. 
+
+### System Requirements
+* Python(3.0.0+) or R
+* Either sufficient space on your personal computing machine to download the data OR ability to work on a cluster. If you have Google Drive, we recommend [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb) (it's free!).
 
 ### Objectives
 
@@ -15,6 +19,16 @@ Advanced
 
 ### Dataset
 We will be using the Wearable Stress and Affect Dataset (WESAD). It is available on the UCI Machine Learning data repository ([Link](https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29)). We recommend that you read and cite the data release paper, available [here](https://dl.acm.org/doi/10.1145/3242969.3242985).
+
+### Steps for Digital Biomarker Discovery
+1. Watch the lectures above either before you get started or while you are working through the data. They cover a lot of pitfalls that may be useful! 
+2. Download the dataset and get comfortable with the file system. Read the README of the dataset, since it contains valuable information
+3. Pre-process the data. There are a few options for you. If you want to use the pickle file structure, we have a mini-tutorial on dealing with pickle data in Python (see Resources, below). If you want to use the wrist-worn wearable sensor only, we provide pre-processing of the wearable used in the dataset (Empatica E4) in both Python and R.
+4. Exploratory Data Analysis. Here is where you want to dive into your data and examine all of the information. 
+5. Feature Engineering. Dive into the domain- we recommend reading the "Other Recommended Resources" below if you are unfamiliar with the physiology of stress. Remember, you want to engineer features that are predictive of stress. We provide the Heart-Rate-Variability module to get you started! The wearablecompute package is coming soon!
+6. Develop Predictive Models. We encourage your creativity here. We provide some resources for ML and highly recommend trying multiple methods and adapting our code in new, exciting ways.
+7. Explore your models! *coming soon*
+8. If you created anything that doesn't currently exist in the DBDP (i.e. new exploratory data methods, *******************
 
 ### Recommended DBDP Resources
 
