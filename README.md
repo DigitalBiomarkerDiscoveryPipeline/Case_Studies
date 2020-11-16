@@ -7,5 +7,5 @@
 
 | Resource | Description |
 | ------ | ------ |  
-| Case Studies | Walk through tutorials for beginner, intermediate, and advanced digital biomarker developers | 
+| [Case Studies](https://github.com/DigitalBiomarkerDiscoveryPipeline/Education/tree/main/Case-Studies) | Walk through tutorials for beginner, intermediate, and advanced digital biomarker developers | 
 | *more coming soon* | | 
