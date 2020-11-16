@@ -28,7 +28,7 @@ We will be using the Wearable Stress and Affect Dataset (WESAD). It is available
 5. Feature Engineering. Dive into the domain- we recommend reading the "Other Recommended Resources" below if you are unfamiliar with the physiology of stress. Remember, you want to engineer features that are predictive of stress. We provide the Heart-Rate-Variability module to get you started! The wearablecompute package is coming soon!
 6. Develop Predictive Models. We encourage your creativity here. We provide some resources for ML and highly recommend trying multiple methods and adapting our code in new, exciting ways.
 7. Explore your models! *coming soon*
-8. If you created anything that doesn't currently exist in the DBDP (i.e. new exploratory data methods, *******************
+8. If you created anything that doesn't currently exist in the DBDP (i.e. new exploratory data methods, ML models, resources), please consider contributing! Our Contribution Guidelines can be found [here](https://github.com/DigitalBiomarkerDiscoveryPipeline/DBDP/blob/master/CONTRIBUTING.md).
 
 ### Recommended DBDP Resources
 
