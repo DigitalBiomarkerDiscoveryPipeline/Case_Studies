@@ -20,6 +20,7 @@ We have 3 levels of case studies:
 | Case Study | Level | Language(s) |
 | ------ | ------ | ------ | 
 | Stress | Advanced | Python, R |
+| CGM Glucose | Begineer | Python |
 | *more coming soon* | | |
 
 
