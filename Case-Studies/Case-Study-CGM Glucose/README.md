@@ -1,6 +1,6 @@
 # Beginner DBDP Tutorial: Working with Continuous Glucose Monitoring (CGM) Data
 
-This tutorial is available step-by-step HERE. 
+This tutorial is available step-by-step tutorial blog [HERE](https://medium.com/digital-biomarker-discovery/working-with-continuous-glucose-monitor-cgm-data-1b0a53115b8f). 
 
 In this case study, we will be using continuous glucose monitoring (CGM) data. We will be performing the first few steps of the [Digital Biomarker Discovery Pipeline](https://dbdp.org): 
 1. Pre-process the data
