@@ -2,7 +2,7 @@
 
 This tutorial is available step-by-step HERE. 
 
-In this case study, we will be using continuous glucose monitoring (CGM) data. We will be performing the first few steps of the Digital Biomarker Discvoery Pipeline: 
+In this case study, we will be using continuous glucose monitoring (CGM) data. We will be performing the first few steps of the [Digital Biomarker Discovery Pipeline](https://dbdp.org): 
 1. Pre-process the data
 2. Exploratory data analysis
 3. Feature Engineering (using the DBDP cgmquantify module)
