@@ -21,6 +21,8 @@ We have 3 levels of case studies:
 | ------ | ------ | ------ | 
 | Stress | Advanced | Python, R |
 | CGM Glucose | Beginner | Python |
+| Sleep | Beginner | Python |
+| ECG | Beginner | Python |
 | *more coming soon* | | |
 
 
