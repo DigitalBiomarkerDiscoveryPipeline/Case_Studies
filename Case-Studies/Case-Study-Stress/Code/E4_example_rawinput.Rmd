@@ -1,0 +1,38 @@
+---
+title: "E4_HR_example"
+author: "BrinnaeBent"
+date: "May 6, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Example of Loading E4 Data from the raw data files
+### This is HR (keep in mind, SR will change based on sensor. Also the ACC.csv has different formatting you will need to deal with.)
+
+```{r}
+
+#Import and Format HR
+  
+filepath = 'C:\\Users\\Brinnae\\Downloads\\WESAD\\WESAD\\S2\\S2_E4_Data'
+sr = 1; #The sampling rate (SR) of HR is 1 Hz. The SR of EDA and TEMP is 4Hz. The SR of ACC is 32Hz. The SR of BVP is 64Hz.
+
+HR <- read.csv(sprintf("%s\\HR.csv", filepath), header=FALSE, stringsAsFactors=FALSE)
+HRstarttime <- HR[1,] #The starting point is the first value in the column (as denoted in Readme)
+HR <- HR[-c(1,2), ] #This is the HR data
+  
+secondspassedHR <- length(HR)/sr #The Seconds Passed is the length divided by the SR
+HRendtime <- HRstarttime + secondspassedHR
+HRTime <- as.numeric(seq(from=HRstarttime, to=HRendtime, length.out=length(HR)))
+  
+HR <- data.frame(HRTime, HR)
+colnames(HR) <- c("Time", "HR")
+  
+HR$Time = as.POSIXct(round(as.numeric(HR$Time)), origin = "1970-01-01")
+
+# You may also need to adjust for time zones. (Probably not for this application since it doesn't matter)
+```
+
